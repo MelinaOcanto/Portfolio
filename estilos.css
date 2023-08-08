@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+}
+header{
+    background-color: #9c0accd9;
+    color: rgb(232, 225, 233);
+    background-image: linear-gradient(to right, #9c0accd9, #44045ad9);   
+}
+
+.Presentacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.portafolio {
+    height: 50px;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+h3{
+    height: 35px;
+    padding-top:19px;
+    justify-content: left;
+    font-size: 20px;
+}
+
+.cara{
+    border-radius: 500px;
+    height: 200px;
+}
+
+.uno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 65px);
+    background-color: #303030;
+    color: white;
+}
+.caja-central{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 50%;
+    box-shadow: 2px 2px 10px rgb(19, 19, 19);
+}
+    
+
+.caja-cara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #059467;
+    
+}
+.caja-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #ecebeb;
+    color: #303030;
+    padding: 10px;
+    text-shadow: 2px 2px 10px rgb(145, 79, 156);
+}
+
+.dos{ 
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding: 150px;
+    text-shadow: 2px 2px 7px rgb(164, 150, 166);
+    background-image: linear-gradient(#eadeee, #efedef);
+}
+
+.dos p{
+    text-align: center;
+}
+
+
+h2{
+    color: rgb(115, 4, 115);
+}
+
+.aptitudes{
+    padding-left: 40px;
+    width: 50%;
+    
+}
+.tecno{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tech{
+    height: 90px;
+}
+
+.listas{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-shadow: 2px 2px 7px rgb(164, 150, 166);
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+}
+.footer {
+    color: white;
+}
+
+.red-social{
+    height: 60px;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: #059467;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d4ede5;
+    height: 160px;
+    padding: 40px;
+    margin: 0px;
+}
+.contacto {
+    margin: 0px;
+    width: 50%;
+    height: 20px;
+    display: flex;
+    padding: 30px 0px;
+    
+}
+
+.telefono{
+    padding: 0px 30px 0px 0px;
+
+}
+
+#contactame{
+    color:#d4ede5;
+}
+
+@media (max-width: 900px) {
+    .caja-central{
+        width: 90%;
+        height: 70%;
+        flex-direction: column;
+    }
+    .caja-cara{
+        width: 100%;
+        height: 50%;
+    }
+    .cara{
+        height:80%;
+    }
+    .caja-presentacion{
+        width: 100%;
+        height: 50%;
+        align-items: flex-start;
+    }
+    .aptitudes{
+        width: auto;
+    }
+    .dos{
+        height: auto;
+        padding: 0 10px 10px 10px;
+
+    }
+    
+    .red-social{
+        
+        margin: 0px 10px 10px 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 70%;
+
+        
+
+    }
+    .contacto{
+        display: flex;
+        justify-content: left;
+        margin: 0px;
+        width: 100%;
+        height: 40%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 0px;
+
+    }
+    .telefono{
+        width: 50%;
+        padding: 0 px 20px 0px 0px;
+        margin: 10px; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+
+    }
+    
+}
